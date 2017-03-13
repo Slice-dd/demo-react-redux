@@ -30,7 +30,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.less', '.scss', '.css'], //后缀名自动补全
     },
     devServer: {
-        contentBase: path.join(__dirname,'dist'),
+        contentBase: path.join(__dirname,'dist'),//配置服务器参数
         compress: true,
     }
 
